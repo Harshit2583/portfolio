@@ -4,27 +4,11 @@
 <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg" alt="" width="450px"/>
 </p>
 
-## Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike.
+## Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today!.
 
 <br />
 
-## Table of Contents :scroll:
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Themes](#themes-art)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Folder Structure](#folder-structure-open_file_folder)
-- [Usage](#usage-joystick)
-- [Hosting](#hosting-globe_with_meridians)
-- [SEO](#seo-spider)
-- [Packages Used](#packages-used-package)
-- [APIs Used](#apis-used-world_map)
-- [Fonts and Images](#fonts-and-images-performing_arts)
-- [Upcoming Features](#upcoming-features-construction)
-- [Contributors](#contributors-man_technologistwoman_technologist)
 
-<br /><br />
 
 
 # Sections :bookmark:
@@ -43,80 +27,6 @@
 
 <br /><br />
 
-# Demo :movie_camera:
-![](https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/demo.gif)
-## View live demo [here](https://dev-portfolio-template.netlify.app/).
-
-<br />
-
-# Themes :art:
-### Green :green_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/greenThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/greenThemeDark.png" width="48%" alt="">
-</div>
-<br />
-
-### Black & White :black_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/bwThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/bwThemeDark.png" width="48%" alt="">
-</div>
-<br />
-
-### Blue :large_blue_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/blueThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/blueThemeDark.png" width="48%" alt="">
-</div>
-
-<br />
-
-### Red :red_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/redThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/redThemeDark.png" width="48%" alt="">
-</div>
-
-<br />
-
-### Orange :orange_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/orangeThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/orangeThemeDark.png" width="48%" alt="">
-</div>
-
-<br />
-
-### Purple :purple_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/purpleThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/purpleThemeDark.png" width="48%" alt="">
-</div>
-
-<br />
-
-### Pink 
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/pinkThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/pinkThemeDark.png" width="48%" alt="">
-</div>
-
-<br />
-
-### Yellow :yellow_circle:
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/yellowThemeLight.png" width="48%" alt="">
-    <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/yellowThemeDark.png" width="48%" alt="">
-</div>
 
 <br /> <br />
 
@@ -292,81 +202,12 @@ yarn start
 ```
 <br />
 
-# Usage :joystick:
-### Customize your details for each component in `src/data` [folder](https://github.com/hhhrrrttt222111/developer-portfolio/tree/master/src/data).
 
-Eg:
-```javascript
-export const headerData = {
-    name: '-- YOUR NAME --',
-    title: '-- YOUR TITLE --',
-    desciption:'-- DESCRIPTION --',
-    image: '-- IMAGE --',
-    resumePdf: ''
-}
 
-// You can also import image and PDF from assets as shown below
-
-import resume from '../assets/pdf/resume.pdf'
-import profileImg from '../assets/png/profileImg'
-
-export const headerData = {
-    name: '-- YOUR NAME --',
-    title: '-- YOUR TITLE --',
-    desciption:'-- DESCRIPTION --',
-    image: profileImg,
-    resumePdf: resume
-}
-```
-
-#### Data for each component is divided into respective files.
->#### Set website theme in [`src/data/themeData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/themeData.js) and choose your favourite font from [`src/App.css`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/App.css)
-
-> #### About You - [`src/data/aboutData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/aboutData.js)
-
-> #### Education details - [`src/data/educationData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/educationData.js) 
-
-> #### Enter your Projects - [`src/data/projectsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/projectsData.js)
-
-> #### Add your Skills - [`src/data/skillsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/skillsData.js)
-
-> #### Experience - [`src/data/experienceData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/experienceData.js)
-
-> #### Achievements - [`src/data/achievementData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/achievementData.js)
-
-> #### Services - [`src/data/servicesData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/servicesData.js)
-
-> #### Testimonials - [`src/data/testimonialsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/testimonialsData.js)
-
-> #### Your Blogs and Articles - [`src/data/blogData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/blogData.js)
-
-> #### Contact Details - [`src/data/contactsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/contactsData.js)
-
-> #### Social Media Profiles - [`src/data/contactsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/socialsData.js)
-
-```javascript
-// EXAMPLE
-export const educationData = [
-    {
-        id: 1,
-        institution: '-- INSTITUTION NAME --',
-        course: '-- COURSE NAME --',
-        startYear: '2017',
-        endYear: '2019'
-    },
-    //
-]
-```
-
-### Instructions and format for each section can be found inside the data files.
-<br />
-
-## Setting Up Contacts form :envelope_with_arrow:
-> ### Follow these [instructions](https://github.com/hhhrrrttt222111/developer-portfolio/wiki/Contacts) to connect contacts form with Google Sheet
 
 <br />
 
-# Hosting :globe_with_meridians:
+<!-- # Hosting :globe_with_meridians:
 ## Netlify
 | Site   | Docs  | Demo  |
 | :-------------: |:-------------: |:-------------: |
@@ -387,7 +228,7 @@ export const educationData = [
 | :-------------: |:-------------: |:-------------: |
 | [GitHub Pages](https://pages.github.com/) | [Deploying React App on GitHub Pages from GitHub](https://create-react-app.dev/docs/deployment/#github-pages) | [Youtube](https://youtu.be/F8s4Ng-re0E) |
 
-<br />
+<br /> -->
 
 
 # SEO :spider:
