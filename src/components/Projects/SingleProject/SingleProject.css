@@ -106,3 +106,103 @@
     word-break: break-word; 
     line-height: 100%;
 }
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: transform 0.5 0.8s;
+    transition: transform 0.2s ease-in-out, color 0.2s;
+
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    object-fit: cover;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s;
+}
+
+.close-btn:hover {
+    color: #ff4d4d; /* Red shade on hover */
+    transform: scale(1.2);
+}
+
+/* Navigation Buttons */
+.nav-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.nav-btn.left {
+    left: 20px;
+}
+
+.nav-btn.right {
+    right: 20px;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .modal-content {
+        max-width: 95%;
+    }
+
+    .modal-image {
+        max-height: 70vh;
+    }
+
+    .nav-btn {
+        font-size: 2rem;
+        padding: 8px;
+    }
+
+    .close-btn {
+        font-size: 1.8rem;
+    }
+}
